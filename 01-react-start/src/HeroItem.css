@@ -1,0 +1,23 @@
+.hero_item {
+  background: #222;
+  padding: 1rem;
+}
+
+.hero_item .title {
+  font-size: 1.3rem;
+  font-weight: 700;
+}
+
+.hero_item .subtitle {
+  font-size: 0.8rem;
+  font-size: 300;
+}
+
+.hero_item .identity_list {
+  list-style: none;
+}
+
+.hero_item .identity_list .identity_name {
+  font-size: 0.6rem;
+  color: #ddd;
+}
