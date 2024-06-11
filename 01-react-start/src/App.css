@@ -40,3 +40,21 @@
 .read-the-docs {
   color: #888;
 }
+
+.hero_container {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 2rem;
+}
+
+@media screen and (min-width: 768px) {
+  .hero_container {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .hero_container {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}

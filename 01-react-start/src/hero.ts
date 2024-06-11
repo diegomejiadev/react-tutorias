@@ -6,6 +6,14 @@ export interface IHero {
   mainComics: string[];
 }
 
+//TODO Tarea
+
+/*
+ * 1. Agregar dos heroes mas a heroes
+ * 2. Agregar un campo a la interface IHero
+ * 3. Mostrar ese campo nuevo en el HeroItem.tsx
+ */
+
 export const heroes: IHero[] = [
   {
     name: 'Batman',

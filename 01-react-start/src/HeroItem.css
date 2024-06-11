@@ -3,21 +3,39 @@
   padding: 1rem;
 }
 
+.hero_item p {
+  text-align: left;
+}
+
+.hero_item .name_container {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+}
+
+.hero_item .image {
+  width: 100%;
+  aspect-ratio: 16/9;
+  object-fit: cover;
+}
+
 .hero_item .title {
   font-size: 1.3rem;
   font-weight: 700;
 }
 
-.hero_item .subtitle {
-  font-size: 0.8rem;
-  font-size: 300;
-}
-
 .hero_item .identity_list {
   list-style: none;
+  display: flex;
+  align-items: center;
 }
 
 .hero_item .identity_list .identity_name {
-  font-size: 0.6rem;
+  font-size: 0.8rem;
   color: #ddd;
+}
+
+.hero_item .comic_name {
+  font-size: 0.7rem;
+  color: #ccc;
 }
