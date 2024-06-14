@@ -3,7 +3,7 @@ import { Datum, GIFResponse } from './gif-response.interface';
 import { useDebounce } from 'use-debounce';
 
 const GIPHY_API_URL = 'https://api.giphy.com/v1/gifs';
-const API_KEY = 'oK17DAEEP9CV6rQ3RozQE5o4PbB15Fu5';
+const API_KEY = '';
 
 interface Props {
   emitList: (list: Datum[]) => void;
